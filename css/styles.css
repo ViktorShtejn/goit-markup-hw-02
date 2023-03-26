@@ -1,0 +1,177 @@
+:root {
+	--primary-font-family: 'Raleway', sans-serif;
+	--secondary-font-family: 'Roboto', sans-serif;
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--revers-color: #2196F3;
+}
+/* ========= START COMPONENTS ========= */
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.logo {
+	font-family: var(--primary-font-family);
+	font-weight: 700; 
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+
+.logo-first-word {
+	color: var(--revers-color);
+}
+
+.unvisible-title {
+	visibility: hidden;
+}
+/* ========= END COMPONENTS ========= */
+
+/* ========= START STUDIO ========= */
+
+/* ========= START HEAD ========= */
+.nav-list-link {
+	font-family: var(--secondary-font-family);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--primary-text-color);
+}
+
+.contact-list-link {
+	font-family: var(--secondary-font-family);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus {
+	color: var(--revers-color);
+}
+/* ========= END HEAD ========= */
+
+/* ========= START HERO ========= */
+.main-title {
+	font-family: var(--secondary-font-family);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	/* color: #FFFFFF; */
+}
+
+.hero-btn {
+	font-family: var(--secondary-font-family);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #FFFFFF;
+	background-color: var(--revers-color);
+}
+/* ========= END HERO ========= */
+
+/* ========= START FEATURES ========= */
+.features-item-title {
+	font-family: var(--secondary-font-family);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+	width: 270px;
+}
+
+.features-item-description {
+	font-family: var(--secondary-font-family);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+	width: 270px;
+}
+/* ========= END FEATURES ========= */
+
+/* ========= START WORK DESCRIPTION ========= */
+.work-description-title {
+	font-family: var(--secondary-font-family);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+/* ========= END WORK DESCRIPTION ========= */
+
+/* ========= START TEAM ========= */
+.team-title {
+	font-family: var(--secondary-font-family);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+.team-member-name {
+	font-family: var(--secondary-font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+.team-member-profession {
+	font-family: var(--secondary-font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+/* ========= END TEAM ========= */
+
+/* ========= START FOOTER ========= */
+.address-list-link {
+	font-family: var(--secondary-font-family);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	/* color: rgba(255, 255, 255, 0.6); */
+}
+
+.link-color {
+	/* color: #FFFFFF; */
+}
+/* ========= END FOOTER ========= */
+
+/* ========= END STUDIO ========= */
+
+/* ========= START PORTFOLIO ========= */
+
+/* ========= END PORTFOLIO ========= */
