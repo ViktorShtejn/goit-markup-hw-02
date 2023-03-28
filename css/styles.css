@@ -88,8 +88,8 @@
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: #188CE8;
-	cursor: pointer;
+  background-color: #188ce8;
+  cursor: pointer;
 }
 /* ========= END HERO ========= */
 
@@ -161,6 +161,14 @@
 /* ========= END TEAM ========= */
 
 /* ========= START FOOTER ========= */
+.footer {
+  background-color: #2f303a;
+}
+
+.revers-logo {
+  color: #ffffff;
+}
+
 .address-list-link {
   font-family: var(--secondary-font-family);
   font-style: normal;
@@ -168,11 +176,12 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.link-color {
-  /* color: #FFFFFF; */
+.address-list-link:hover,
+.address-list-link:focus {
+  color: #ffffff;
 }
 /* ========= END FOOTER ========= */
 
