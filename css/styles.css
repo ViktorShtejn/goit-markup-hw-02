@@ -1,11 +1,15 @@
 :root {
   --primary-font-family: "Raleway", sans-serif;
-  --secondary-font-family: "Roboto", sans-serif;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --revers-color: #2196f3;
 }
 /* ========= START COMPONENTS ========= */
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--secondary-text-color);
+}
+
 .list {
   list-style: none;
 }
@@ -36,7 +40,6 @@
 
 /* ========= START HEAD ========= */
 .nav-list-link {
-  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,7 +48,6 @@
 }
 
 .contact-list-link {
-  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,19 +64,21 @@
 /* ========= END HEAD ========= */
 
 /* ========= START HERO ========= */
+.hero {
+	background-color: #2F303A;
+}
+
 .main-title {
-  font-family: var(--secondary-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
 }
 
 .hero-btn {
-  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -95,7 +99,6 @@
 
 /* ========= START FEATURES ========= */
 .features-item-title {
-  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -106,19 +109,15 @@
 }
 
 .features-item-description {
-  font-family: var(--secondary-font-family);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
   width: 270px;
 }
 /* ========= END FEATURES ========= */
 
 /* ========= START WORK DESCRIPTION ========= */
 .work-description-title {
-  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -130,7 +129,6 @@
 
 /* ========= START TEAM ========= */
 .team-title {
-  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -140,7 +138,6 @@
 }
 
 .team-member-name {
-  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -150,13 +147,10 @@
 }
 
 .team-member-profession {
-  font-family: var(--secondary-font-family);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
 /* ========= END TEAM ========= */
 
@@ -170,9 +164,7 @@
 }
 
 .address-list-link {
-  font-family: var(--secondary-font-family);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -189,7 +181,6 @@
 
 /* ========= START PORTFOLIO ========= */
 .filter-btn {
-  font-family: var(--secondary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -205,7 +196,6 @@
 }
 
 .work-item-title {
-  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -214,8 +204,6 @@
 }
 
 .work-item-description {
-  font-family: var(--secondary-font-family);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
