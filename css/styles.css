@@ -47,6 +47,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.all-time-color {
+	color: var(--revers-color);
+}
+
 .contact-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -105,14 +109,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
-  width: 270px;
 }
 
 .features-item-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  width: 270px;
 }
 /* ========= END FEATURES ========= */
 
@@ -128,6 +130,10 @@ body {
 /* ========= END WORK DESCRIPTION ========= */
 
 /* ========= START TEAM ========= */
+.team {
+	background-color: #F5F4FA;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,6 +177,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.another-color {
+	color: #ffffff;
+}
+
 .address-list-link:hover,
 .address-list-link:focus {
   color: #ffffff;
@@ -187,6 +197,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: #F5F4FA;
 }
 
 .filter-btn:hover,
